@@ -9,7 +9,7 @@ def searchByName(name):
         for file in files:
             if file == name:
                 print (os.path.join(root, file))
-                totalSize =+ os.path.getsize(os.path.join(root, file))
+                totalSize += os.path.getsize(os.path.join(root, file))
     return totalSize
 
 
