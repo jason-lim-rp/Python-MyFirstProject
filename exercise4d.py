@@ -12,7 +12,7 @@ def searchBySize(size):
             filesize = os.path.getsize(fullname)
             if filesize > size:
                 print ("%6d %s" % (filesize, fullname))
-                totalSize =+ filesize
+                totalSize += filesize
     return totalSize
 
 

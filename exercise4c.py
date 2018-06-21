@@ -12,7 +12,7 @@ def searchByName(name):
                 fullname = os.path.join(root, file)
                 filesize = os.path.getsize(fullname)
                 print ("%6d %s" % (filesize, fullname))
-                totalSize =+ filesize
+                totalSize += filesize
     return totalSize
 
 

@@ -12,7 +12,7 @@ def searchByExtension(ext):
             filesize = os.path.getsize(fullname)
             if file.endswith(ext):
                 print ("%6d %s" % (filesize, fullname))
-                totalSize =+ filesize
+                totalSize += filesize
     return totalSize
 
 
