@@ -8,6 +8,6 @@ rows = csv.DictReader(io.TextIOWrapper(con))
 for row in rows:
     if row['type_of_public_transport']== "MRT":
         print(row['year'], row['average_ridership'] )
-        print (dict(row))
+        #print (dict(row))
 
 con.close()
